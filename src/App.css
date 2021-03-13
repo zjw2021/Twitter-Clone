@@ -3,3 +3,70 @@
   margin: 0;
   font-family: Helvetica, sans-serif;
 }
+
+.container {
+  display: flex; 
+  /* justify-content: center; */
+}
+
+/* font size */
+.fs-sm {
+  font-size: 10px;
+}
+.fs-sm-3 {
+  font-size: 12px;
+}
+.fs-md {
+  font-size: 15px;
+}
+.fs-lg {
+  font-size: 20px;
+}
+
+/* font styling */
+.ft-b {
+  font-weight: bold;
+}
+
+/* navbar styling */
+.navbar {
+  margin-left: 25px;
+}
+.navbar-option {
+  color: black;
+  padding: 7.5px 15px;
+  margin-top: 10px;
+  width: fit-content;
+}
+.navbar-option:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+  background-color: #edf5fd;
+  border-radius: 100px;
+}
+.nav-icon {
+  color: #1DA1F2;
+  margin-left: 7.5px;
+  margin-top: 10px;
+  padding: 7.5px;
+}
+.nav-icon:hover {
+  cursor: pointer;
+  background-color: #edf5fd;
+  border-radius: 100px;
+}
+.nav-tweet {
+  width: 90%;
+  margin-left: 7.5px;
+  color: #ffffff;
+  background-color: #1DA1F2;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  padding: 7.5px 15px;
+  margin-top: 15px;
+}
+.nav-tweet:hover {
+  background-color: #4491d4;
+  cursor: pointer;
+}
